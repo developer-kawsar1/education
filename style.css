@@ -107,6 +107,7 @@
 }
 .testimonial-txt p{
   padding: 0 50px;
+  text-align: center;
 }
 .testimonial img{
   width:120px;
@@ -116,6 +117,27 @@
 
 footer{
 background:#282531;
+color: #fff;
+padding: 20px;
+}
+.wrapper{
+  display: flex;
+  justify-content: space-around;
+  
+}
+.footer-text{
+  flex-basis: 40%;
+}
+footer ul{
+  list-style: none;
+}
+footer h2{
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+footer ul li a{
+  text-decoration: none;
+  color:#fff;
 }
  /* respossive css */
 
@@ -148,6 +170,9 @@ background:#282531;
   text-align: center;
 
   
+}
+.wrapper{
+  flex-direction: column;
 }
  
  }
