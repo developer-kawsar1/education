@@ -105,9 +105,12 @@
  
   
 }
+
 .testimonial-txt p{
   padding: 0 50px;
   text-align: center;
+  
+  
 }
 .testimonial img{
   width:120px;
@@ -127,6 +130,8 @@ padding: 20px;
 }
 .footer-text{
   flex-basis: 40%;
+  padding-top: 30px;
+  
 }
 footer ul{
   list-style: none;
@@ -138,6 +143,10 @@ footer h2{
 footer ul li a{
   text-decoration: none;
   color:#fff;
+}
+.copyright p{
+  text-align: center;
+  margin-top: 50px;
 }
  /* respossive css */
 
@@ -173,6 +182,9 @@ footer ul li a{
 }
 .wrapper{
   flex-direction: column;
+}
+.wrapper div{
+  margin-bottom: 20px;
 }
  
  }
