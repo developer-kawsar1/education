@@ -5,9 +5,65 @@
     box-sizing: border-box;
    font-family: 'Poppins', sans-serif;
 }
+
+html{
+  scroll-behavior: smooth;
+}
+
 .container{
     max-width: 1100px;
     margin: 0 auto;
+}
+
+/*Hero section */
+
+header{
+background: #F0FFF0;
+
+}
+.hero-wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px 8%;
+}
+.half-width{
+  flex-basis: 45%;
+  
+}
+.orange-txt{
+  color:  #FD511A;
+  font-size: 16px;
+
+}
+.half-width h1{
+  font-size: 48px;
+  font-weight: 800;
+}
+.half-width h1 span{
+  color: #21B573;
+
+}
+.half-width .hero-txt{
+  color: #6C6B6B;
+
+}
+
+.half-width img{
+  max-width: 100%;
+  
+}
+.hero-btn{
+  text-decoration: none;
+  font-weight: bold;
+  color:#fff;
+padding: 10px 20px;
+ background: #21B573;
+ display: inline-block;
+ margin-top: 20px;
+ border-radius: 25px;
+
+
 }
 /* info section */ 
 .info{
@@ -51,13 +107,15 @@
 } 
 .courses{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    padding: 0 8%;
 } 
 .courses .course{
     padding: 10px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    flex-basis: 30%; 
+    flex-basis: 3%; 
     border-radius: 10px;
+    margin: 0 10px;
 }
 .courses .course .course-title  {
  color: #413960;
@@ -133,6 +191,10 @@ padding: 20px;
   padding-top: 30px;
   
 }
+.footer-container{
+  max-width: 1200px;
+  margin: auto;
+}
 footer ul{
   list-style: none;
 }
@@ -151,6 +213,16 @@ footer ul li a{
  /* respossive css */
 
  @media (max-width:500px){
+  .hero-wrapper{
+    flex-direction: column;
+  }
+  .half-width{
+    flex-basis: 100%;
+    margin-bottom: 50px;
+    text-align: center;
+    
+  }
+   
    .info .section-row{
     display: grid;
     grid-template-columns: auto;
@@ -186,6 +258,7 @@ footer ul li a{
 .wrapper div{
   margin-bottom: 20px;
 }
+
  
  }
  
